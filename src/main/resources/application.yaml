@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: vvot-hw-1
+
+app:
+  telegram:
+    bot:
+      api-url: ${TG_API_URL}
+      webhook-path: ${TG_WEBHOOK_PATH}
+      username: ${TG_BOT_USERNAME}
+      token: ${TG_BOT_TOKEN}
+  yandex:
+    llm:
+      token: ${YANDEX_LLM_TOKEN}
